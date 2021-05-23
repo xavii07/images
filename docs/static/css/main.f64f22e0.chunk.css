@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Recursive:wght@400;800&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Recursive", sans-serif;
+    font-size: 14px
+}
+
+.jumbotron {
+    background: #000;
+    background: linear-gradient(180deg, rgba(67, 67, 67, .29), rgba(0, 0, 0, .99)), url(../media/pexels.4480f62c.jpeg);
+    background-position: 50%;
+    background-attachment: fixed
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800
+}
+
+h1 {
+    font-size: 1.5rem
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 1.8rem
+    }
+
+    h2 {
+        font-size: 1.4rem
+    }
+}
+
+@media screen and (min-width:992px) {
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        font-size: 1.6rem
+    }
+}
+
+/*# sourceMappingURL=main.f64f22e0.chunk.css.map */
